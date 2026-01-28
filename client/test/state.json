@@ -1,0 +1,15 @@
+{
+  "games": [],
+  "playerId": "player1",
+  "gameState": {
+    "dices": [],
+    "players": {},
+    "turn": {}
+  },
+  "gameHistory": [],
+  "commandLine": {
+    "currentIndex": -1,
+    "history": [],
+    "value": ""
+  }
+}

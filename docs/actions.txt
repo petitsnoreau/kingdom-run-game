@@ -1,0 +1,23 @@
+Actions to implement
+
+1. Roll dices: 2 times and max 4 dices
+2. Take points from player
+3. Water:
+- invalid if no further water
+- invalid if no space in tile
+- go to next available
+- get out of water to next tile with empty space
+- must be awake
+3. Sleep:
+- put a player to sleep
+- wake up
+- invalid if not asleep
+- invalid if not player awake
+4. Grapple:
+- to next player
+- to next tile if full
+- invalid is not possible
+5. Boot:
+- max of movements by players on tile
+6. Repeat:
+- must be valid

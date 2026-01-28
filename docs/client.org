@@ -1,0 +1,26 @@
+* socket module
+
+  - sendAction (callback)
+  - events
+  - send (emit)
+  - receive (on)
+
+* game service
+
+  - subscribe to socket module events
+  - ui state must be updated on events
+  - offers promises for actions
+  - socket module to send action
+  - waits for event from socket module
+  - resolves promise for ui (error after timeout)
+
+* ui component
+
+  - action by promise returns validation or new state
+  - event to update state
+
+* Frontend
+
+  - grid
+  - textarea with game state
+  - textbox for commands

@@ -1,0 +1,27 @@
+1. Player sends move:
+   - game id
+   - player id
+   - move type
+   - move content
+2. Message received on SocketService
+3. Game state updated by GameService, handleMove
+4. New game state broadcasted to all players
+5. Turn is passed to next player
+
+States:
+
+1.1 handling message
+1.2 return error
+
+2.1 handling message content
+2.2 return error
+
+3.1 updating game state
+3.2 return error
+
+4.1 broadcasting new game state
+4.2 broadcast error
+
+5.1 broadcast new turn
+5.2 broadcast error
+5.3 broadcast game ended

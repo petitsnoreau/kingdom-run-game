@@ -1,0 +1,292 @@
+{
+  "id": "RB4bzSQUc2",
+  "startDate": "2021-07-06T23:35:09.796Z",
+  "path": [
+    {
+      "COMMENTS": {
+        "PATH INDEX": "0"
+      },
+      "x": 6,
+      "y": 2,
+      "value": 0,
+      "type": "start",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "1"
+      },
+      "x": 6,
+      "y": 1,
+      "value": 0,
+      "type": "start",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "2"
+      },
+      "x": 7,
+      "y": 1,
+      "value": 0,
+      "type": "start",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "3"
+      },
+      "x": 7,
+      "y": 2,
+      "value": 0,
+      "type": "start",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "4"
+      },
+      "x": 7,
+      "y": 3,
+      "value": 2,
+      "type": "ground",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "5"
+      },
+      "x": 6,
+      "y": 3,
+      "value": 2,
+      "type": "ground",
+      "tokens": [
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player1"
+        }
+      ]
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "6"
+      },
+      "x": 5,
+      "y": 3,
+      "value": 3,
+      "type": "water",
+      "tokens": [
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player2"
+        }
+      ]
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "7"
+      },
+      "x": 5,
+      "y": 2,
+      "value": 3,
+      "type": "ground",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "8"
+      },
+      "x": 4,
+      "y": 2,
+      "value": 4,
+      "type": "ground",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "9"
+      },
+      "x": 4,
+      "y": 1,
+      "value": 4,
+      "type": "ground",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "10"
+      },
+      "x": 3,
+      "y": 1,
+      "value": 5,
+      "type": "water",
+      "tokens": [
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player1"
+        }
+      ]
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "11"
+      },
+      "x": 3,
+      "y": 0,
+      "value": 5,
+      "type": "water",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "12"
+      },
+      "x": 2,
+      "y": 0,
+      "value": 6,
+      "type": "ground",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "13"
+      },
+      "x": 0,
+      "y": 0,
+      "value": 6,
+      "type": "ground",
+      "tokens": [
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player2"
+        }
+      ]
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "14"
+      },
+      "x": 0,
+      "y": 0,
+      "value": 0,
+      "type": "finish",
+      "tokens": []
+    },
+    {
+      "COMMENTS": {
+        "PATH INDEX": "15"
+      },
+      "x": 0,
+      "y": 0,
+      "value": 0,
+      "type": "finish",
+      "tokens": [
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player1"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player2"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player3"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player3"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player2"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player1"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player4"
+        },
+        {
+          "awake": true,
+          "color": "YELLOW",
+          "playerId": "player4"
+        }
+      ]
+    }
+  ],
+  "dices": [
+    {
+      "value": "points",
+      "played": true,
+      "rolls": 1
+    },
+    {
+      "played": false,
+      "value": "water",
+      "rolls": 0
+    },
+    {
+      "played": false,
+      "value": "boot",
+      "rolls": 0
+    },
+    {
+      "played": false,
+      "value": "boot",
+      "rolls": 0
+    }
+  ],
+  "colors": [
+    "GREEN",
+    "RED"
+  ],
+  "players": {
+    "player1": {
+      "id": "player1",
+      "points": 6,
+      "color": "yellow"
+    },
+    "player2": {
+      "id": "player2",
+      "points": 6,
+      "color": "blue"
+    },
+    "player3": {
+      "id": "player3",
+      "points": 6,
+      "color": "blue"
+    },
+    "player4": {
+      "id": "player4",
+      "points": 6,
+      "color": "blue"
+    }
+  },
+  "status": "started",
+  "turn": {
+    "playerId": "player1",
+    "rolls": 2,
+    "actions": {
+      "points:": 0,
+      "water:": 0,
+      "sleep:": 0,
+      "repeat:": 0,
+      "grapple:": 0,
+      "boot:": 0
+    }
+  }
+}
