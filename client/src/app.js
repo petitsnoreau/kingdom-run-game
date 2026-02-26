@@ -5,7 +5,7 @@ import { listenForSocketMessages } from './subscriptions.js'
 import { handleGameMessage } from './actions.js'
 import { loadGamesFromStorage } from './utils.js'
 
-export default main = app({
+app({
   init: {
     games: loadGamesFromStorage(),
     playerId: undefined,
